@@ -1,0 +1,49 @@
+(defwidget statusbar []
+  (centerbox :orientation "h"
+    (workspaces)
+    (box time)
+    (sidestuff)))
+
+(defwidget sidestuff []
+  (box :class "sidestuff" :orientation "h" :space-evenly false :halign "end"
+    (traywidget)
+    ))
+
+(defwidget workspaces []
+  (box :class "workspaces"
+       :orientation "h"
+       :space-evenly true
+       :halign "start"
+       :spacing 10
+    (button :class "button-bar" :onclick "sway workspace 1" 1)
+    (button :class "button-bar" :onclick "sway workspace 2" 2)
+    (button :class "button-bar" :onclick "sway workspace 3" 3)
+    (button :class "button-bar" :onclick "sway workspace 4" 4)
+    (button :class "button-bar" :onclick "sway workspace 5" 5)
+    (button :class "button-bar" :onclick "sway workspace 6" 6)
+    (button :class "button-bar" :onclick "sway workspace 7" 7)
+    (button :class "button-bar" :onclick "sway workspace 8" 8)
+    (button :class "button-bar" :onclick "sway workspace 9" 9)))
+
+; -- Tray --
+
+(defwidget traywidget []
+  (box
+    (systray)))
+
+; -- Time --
+
+(defpoll time :interval "10s"
+   "date '+%H:%M'")
+
+(defwindow bar
+  :monitor 0
+  :exclusive true
+  :windowtype "dock"
+  :geometry (geometry :x "0%"
+                      :y "0%"
+                      :width "90%"
+                      :height "10px"
+                      :anchor "top center")
+  :reserve (struts :side "top" :distance "4%")
+  (statusbar))

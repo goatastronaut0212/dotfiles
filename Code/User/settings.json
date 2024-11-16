@@ -1,34 +1,34 @@
 {
-    "workbench.colorTheme": "Monokai",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Monokai",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "[html]": {
     "editor.tabSize": 2,
-    "[html]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true
-    },
-    "[css]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true
-    },
-    "[json]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true
-    },
-    "[javascript]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true
-    },
-    "[typescript]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true
-    },
-    "[python]": {
-        "editor.tabSize": 4,
-        "editor.insertSpaces": true
-    },
-    "[go]": {
-        "editor.tabSize": 4,
-        "editor.insertSpaces": false
-    }
+    "editor.insertSpaces": true
+  },
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+  "[go]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false
+  }
 }

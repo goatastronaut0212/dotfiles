@@ -217,9 +217,13 @@ bindsym $mod+r mode "resize"
     # Special key to take a screenshot with grim
     bindsym Print exec grim
 
-#
-# Status Bar:
-#
-# Read `man 5 sway-bar` for more information about this section.
+
+# Touchpad
+input "1739:52694:DELL0A24:00_06CB:CDD6_Touchpad" {
+  dwt enabled
+  tap enabled
+  middle_emulation enabled
+}
+
 
 include @sysconfdir@/sway/config.d/*

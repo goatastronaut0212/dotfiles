@@ -7,7 +7,7 @@
 (defwidget sidestuff []
   (box :class "sidestuff" :orientation "h" :space-evenly false :halign "end"
        :spacing 10
-    (traywidget)
+    (tray-widget)
     (time-widget)
   )
 )
@@ -51,7 +51,7 @@
 
 ; -- Tray --
 
-(defwidget traywidget []
+(defwidget tray-widget []
   (box
     (systray)))
 

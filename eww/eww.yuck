@@ -1,19 +1,20 @@
 (defwidget statusbar []
   (centerbox :orientation "h"
     (workspaces)
-    (box time)
+    (music-widget)
     (sidestuff)))
 
 (defwidget sidestuff []
   (box :class "sidestuff" :orientation "h" :space-evenly false :halign "end"
+       :spacing 10
     (traywidget)
+    (time-widget)
   )
 )
 
 ; -- Workspace --
 
 (defpoll currentworkspace :interval "70ms" `~/.config/eww/scripts/hyprland_workspace`)
-
 (defpoll activewindowworkspace :interval "70ms" `~/.config/eww/scripts/hyprland_activewindow_workspace`)
 
 (defvar workspacelist "[1, 2, 3, 4, 5, 6, 7, 8, 9]")
@@ -26,11 +27,25 @@
        :spacing 10
     (for workspace in workspacelist
       (button
-        :class {matches(workspace, activewindowworkspace) ? "workspace-button" : "workspace-button-inactive"}
+        :class {matches(workspace, activewindowworkspace) ? "active" : ""}
         :onclick `hyprctl dispatch workspace ${workspace}`
 	{currentworkspace == workspace ? "⬤" : "◯"}
       )
     )
+  )
+)
+
+; -- Music --
+
+(defpoll MUSIC_CURRENT :interval "70ms" `~/.config/eww/scripts/playerctl_get_info`)
+(defpoll MUSIC_STATUS :interval "70ms" "playerctl status")
+
+
+(defwidget music-widget []
+  (button
+    :class {matches("Playing", MUSIC_STATUS) ? "active" : ""}
+    :onclick `playerctl play-pause`
+    "♫ ${MUSIC_CURRENT}"
   )
 )
 
@@ -42,7 +57,11 @@
 
 ; -- Time --
 
-(defpoll time :interval "10s" "date '+%H:%M'")
+(defpoll TIME :interval "10s" "date '+%H:%M'")
+
+(defwidget time-widget []
+  (box TIME)
+)
 
 (defwindow bar
   :monitor 0

@@ -1,4 +1,4 @@
-(defwidget statusbar []
+(defwidget status-widget []
   (centerbox :orientation "h"
     (workspace-widget)
     (music-widget)
@@ -73,4 +73,4 @@
                       :height "10px"
                       :anchor "top center")
   :reserve (struts :side "top" :distance "4%")
-  (statusbar))
+  (status-widget))

@@ -1,3 +1,8 @@
 #!/bin/sh
-hyprctl clients -j | jq -r '.[].workspace.id' | sort -u | tr -d '\n ' | sed 's/./& /g' | awk '{split($0, a, " "); print "["; for (i in a) print "  " a[i] ","; print "]"}'
+hyprctl clients -j | jq -r 'map(.workspace.id) // [] | unique | if length == 0 then [0] else . end | @csv' | awk -v RS= -F, '
+{
+    print "["
+    for (i=1; i<=NF; i++) print "  " $i ","
+    print "]"
+}'
 

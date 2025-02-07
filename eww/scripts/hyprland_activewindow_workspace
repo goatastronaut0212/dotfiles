@@ -1,0 +1,3 @@
+#!/bin/sh
+hyprctl clients -j | jq -r '.[].workspace.id' | sort -u | tr -d '\n ' | sed 's/./& /g' | awk '{split($0, a, " "); print "["; for (i in a) print "  " a[i] ","; print "]"}'
+

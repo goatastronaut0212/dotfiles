@@ -7,7 +7,14 @@
 (defwidget sidestuff []
   (box :class "sidestuff" :orientation "h" :space-evenly false :halign "end"
     (traywidget)
-    ))
+  )
+)
+
+(defpoll currentworkspace :interval "90ms" `~/.config/eww/scripts/hyprland_workspace`)
+
+(defpoll activewindowworkspace :interval "90ms" `~/.config/eww/scripts/hyprland_activewindow_workspace`)
+
+(defvar workspacelist "[1, 2, 3, 4, 5, 6, 7, 8, 9]")
 
 (defwidget workspaces []
   (box :class "workspaces"
@@ -15,15 +22,15 @@
        :space-evenly true
        :halign "start"
        :spacing 10
-    (button :class "button-bar" :onclick "sway workspace 1" 1)
-    (button :class "button-bar" :onclick "sway workspace 2" 2)
-    (button :class "button-bar" :onclick "sway workspace 3" 3)
-    (button :class "button-bar" :onclick "sway workspace 4" 4)
-    (button :class "button-bar" :onclick "sway workspace 5" 5)
-    (button :class "button-bar" :onclick "sway workspace 6" 6)
-    (button :class "button-bar" :onclick "sway workspace 7" 7)
-    (button :class "button-bar" :onclick "sway workspace 8" 8)
-    (button :class "button-bar" :onclick "sway workspace 9" 9)))
+    (for workspace in workspacelist
+      (button
+        :class {matches(workspace, activewindowworkspace) ? "workspace-button" : "workspace-button-inactive"}
+        :onclick `hyprctl dispatch workspace ${workspace}`
+	{currentworkspace == workspace ? "⬤" : "◯"}
+      )
+    )
+  )
+)
 
 ; -- Tray --
 
@@ -33,8 +40,7 @@
 
 ; -- Time --
 
-(defpoll time :interval "10s"
-   "date '+%H:%M'")
+(defpoll time :interval "10s" "date '+%H:%M'")
 
 (defwindow bar
   :monitor 0

@@ -1,0 +1,2 @@
+#!/bin/sh
+hyprctl activeworkspace -j | jq '.id'

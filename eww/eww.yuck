@@ -2,9 +2,9 @@
   (centerbox :orientation "h"
     (workspace-widget)
     (music-widget)
-    (sidestuff)))
+    (side-widget)))
 
-(defwidget sidestuff []
+(defwidget side-widget []
   (box :class "sidestuff" :orientation "h" :space-evenly false :halign "end"
        :spacing 10
     (tray-widget)

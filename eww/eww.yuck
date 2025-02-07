@@ -43,7 +43,7 @@
 
 (defwidget music-widget []
   (button
-    :class {matches("Playing", MUSIC_STATUS) ? "active" : ""}
+    :class {matches(MUSIC_STATUS, "Playing") ? "active" : ""}
     :onclick `playerctl play-pause`
     "♫ ${MUSIC_CURRENT}"
   )

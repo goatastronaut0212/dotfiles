@@ -51,7 +51,7 @@ keys = [
         lazy.layout.toggle_split(),
         desc="Toggle between split and unsplit sides of stack",
     ),
-    Key([mod, "shift"], "Return", lazy.spawn(terminal), desc="Launch terminal"),
+    Key([mod], "Return", lazy.spawn(terminal), desc="Launch terminal"),
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
     Key([mod, "shift"], "c", lazy.window.kill(), desc="Kill focused window"),
@@ -70,7 +70,7 @@ keys = [
 # Add key bindings to switch VTs in Wayland.
 # We can't check qtile.core.name in default config as it is loaded before qtile is started
 # We therefore defer the check until the key binding is run by using .when(func=...)
-for vt in range(1, 8):
+for vt in range(1, 9):
     keys.append(
         Key(
             ["control", "mod1"],
@@ -81,7 +81,7 @@ for vt in range(1, 8):
     )
 
 
-groups = [Group(i) for i in "12345678"]
+groups = [Group(i) for i in "123456789"]
 
 for i in groups:
     keys.extend(
@@ -120,7 +120,7 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="sans",
+    font="Iosevka Nerd Font Mono",
     fontsize=14,
     padding=4,
 )

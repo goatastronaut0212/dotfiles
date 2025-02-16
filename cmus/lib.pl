@@ -1,0 +1,230 @@
+/home/astronaut/Music/Instruments/Nyan Cat Instrumental.ogg
+/home/astronaut/Music/Japanese/Orange - 7!!.ogg
+/home/astronaut/Music/English/I Do - 911.ogg
+/home/astronaut/Music/English/Angeleyes (sped up-tiktok remix) - ABBA.ogg
+/home/astronaut/Music/Electronic/Nova - Ahrix.ogg
+/home/astronaut/Music/Remix - Lofi/Can't Take My Eyes Off You (Lofi Remix) - Aiivawn ft.Craymer.ogg
+/home/astronaut/Music/Electronic/Force - Alan Walker.ogg
+/home/astronaut/Music/Electronic/Sing Me To Sleep - Alan Walker.ogg
+/home/astronaut/Music/Electronic/Spectre - Alan Walker.ogg
+/home/astronaut/Music/Electronic/Darkside - Alan Walker (feat. Au⧸Ra and Tomine Harket).ogg
+/home/astronaut/Music/Electronic/Lily - Alan Walker ft. K-391 & Emelie Hollow (Official Lyric Video).ogg
+/home/astronaut/Music/Electronic/Party Mood - Alex MakeMusic.ogg
+/home/astronaut/Music/Instruments/Happy Song - Alice Hart.ogg
+/home/astronaut/Music/Vietnamese/Đen đá không đường - Amee.ogg
+/home/astronaut/Music/Vietnamese/Sao Anh Chưa Về Nhà Remix - Amee ft Nguyễn Hoàng.ogg
+/home/astronaut/Music/Vietnamese/1 Phút - Andiez.ogg
+/home/astronaut/Music/Instruments/Inside the memories - Angel Lover.ogg
+/home/astronaut/Music/Vietnamese/Xin Lỗi - Anh Phan & Larria.ogg
+/home/astronaut/Music/Electronic/The Truth - Anno Domini.ogg
+/home/astronaut/Music/English/Bumble bee (speed up) - Bambee.ogg
+/home/astronaut/Music/Instruments/Moonglow - Bandari.ogg
+/home/astronaut/Music/Vietnamese/Mùa thu cho em - Bằng Kiều & Trần Thu Hà.ogg
+/home/astronaut/Music/Remix - Lofi/Space song (Slowed + reverb) - Beach House.ogg
+/home/astronaut/Music/English/Build A Bitch - Bella Poarch.ogg
+/home/astronaut/Music/English/Casablanca - Bertie Higgins.ogg
+/home/astronaut/Music/Indonesia/Madu Dan Racun - Bill & Brod.ogg
+/home/astronaut/Music/English/Marry You - Bruno Mars.ogg
+/home/astronaut/Music/Vietnamese/Hẹn một mai - Bùi Anh Tuấn.ogg
+/home/astronaut/Music/English/Tek It (Sped Up) - Cafuné.ogg
+/home/astronaut/Music/English/Havana - Camila Cabello ft. Young Thug.ogg
+/home/astronaut/Music/Chinese/Bản vẽ tình yêu (恋爱画板) - Cẩm Linh (锦零).ogg
+/home/astronaut/Music/Japanese/TICTAC - Capsule.ogg
+/home/astronaut/Music/Vietnamese/This Way- Cara.ogg
+/home/astronaut/Music/Swendish/Caramelldansen (Swedish) - Caramella Girls.ogg
+/home/astronaut/Music/Instruments/Por una Cabeza (Instruments) - Carlos Gardel.ogg
+/home/astronaut/Music/English/Top Of The World - Carpenters.ogg
+/home/astronaut/Music/Electronic/Why We Lose - Cartoon, Jéja (feat. Coleman Trapp).ogg
+/home/astronaut/Music/English/Hero - Cash Cash ft.Christina Perri.ogg
+/home/astronaut/Music/OST/Cuphead DLC OST - Recipe For Ms. Chalice.ogg
+/home/astronaut/Music/English/One call away - Charlie Puth.ogg
+/home/astronaut/Music/Vietnamese/Có Em Đời Bỗng Vui - Chillies.ogg
+/home/astronaut/Music/Vietnamese/Anh ơi ở lại - Chi Pu.ogg
+/home/astronaut/Music/Instruments/Grande Valse Brillante Op.18 (Waltz in E flat major).ogg
+/home/astronaut/Music/Electronic/Tires On Fire - Coda.ogg
+/home/astronaut/Music/English/Hymn For The Weekend - Coldplay.ogg
+/home/astronaut/Music/English/Viva la Vida - Coldplay.ogg
+/home/astronaut/Music/Workout/ A Sky Full Of Stars  - Coldplay & ColFearz Bootleg remix.ogg
+/home/astronaut/Music/Korean/Aloha (아로하) - COOL (쿨).ogg
+/home/astronaut/Music/Vietnamese/Thanh Xuân - Da LAB.ogg
+/home/astronaut/Music/Korean/여우비 (Fox Rain) Cover - DALNODO (달노도).ogg
+/home/astronaut/Music/Instruments/Candy Sunshine- Daniel Heath & Robert Fitzsimmons.ogg
+/home/astronaut/Music/Instruments/Ticking Down to Xmas - Daniel Teper.ogg
+/home/astronaut/Music/Eurobeat/Beat of the Rising Sun - Dave Rodgers.ogg
+/home/astronaut/Music/Instruments/Stepping on The Rainy Street - Day Dream.ogg
+/home/astronaut/Music/Electronic/EH!DE - My Heart - Different Heaven .ogg
+/home/astronaut/Music/Vietnamese/Mình yêu nhau bình yên thôi - Đinh Hương ft. Hà Anh Tuấn.ogg
+/home/astronaut/Music/Electronic/Savannah - Diviners (feat. Philly K).ogg
+/home/astronaut/Music/OST/Terraria Calamity Mod Music - ＂The Tale of a Cruel World＂ - Title Theme.ogg
+/home/astronaut/Music/Remix - Lofi/Lost Woods - DubstepGutter (Will & Tim).ogg
+/home/astronaut/Music/Eurobeat/No One Sleep In Tokyo - Edo Boys.ogg
+/home/astronaut/Music/English/Royalty - Egzod & Maestro Chives ft. Neoni.ogg
+/home/astronaut/Music/English/Cold Heart (PNAU Remix) - Elton John & Dua Lipa.ogg
+/home/astronaut/Music/Remix - Lofi/Crystal dolphin - Engelwood.ogg
+/home/astronaut/Music/Vietnamese/Sau tất cả - Erik.ogg
+/home/astronaut/Music/English/Cupid (Twin Version) - FIFTY FIFTY.ogg
+/home/astronaut/Music/English/A little love - Fiona Fung.ogg
+/home/astronaut/Music/German/Schwarzbraun ist die Haselnuss - German march folk song.ogg
+/home/astronaut/Music/German/Westerwaldlied - German march folk song.ogg
+/home/astronaut/Music/Korean/Y (Please Tell Me Why) - Free Style(프리스타일).ogg
+/home/astronaut/Music/OST/Peace and Tranquility - A Hat in Time OST [Seal the Deal].ogg
+/home/astronaut/Music/Chinese/123 em yêu anh (我爱你) - Giang Triều & Hạ Tử Linh (江潮 & 贺子玲).ogg
+/home/astronaut/Music/Electronic/Broken Angel Remix - Goetter.ogg
+/home/astronaut/Music/Instruments/Memories of Granny - Gregor F. Narholz.ogg
+/home/astronaut/Music/Vietnamese/Cơn mưa tình yêu - Hà Anh Tuấn ft. Phương Linh.ogg
+/home/astronaut/Music/Vietnamese/Tớ Thích Cậu - Han Sara.ogg
+/home/astronaut/Music/Vietnamese/Đếm cừu - Han Sara ft. Kay Trần.ogg
+/home/astronaut/Music/Vietnamese/I'm in luv - havu1st ft. mamongmer.ogg
+/home/astronaut/Music/Vietnamese/Tấm Lòng Son Remix - H-Kray x Đại Mèo.ogg
+/home/astronaut/Music/Vietnamese/See Tình (speed) - Hoàng Thuỳ Linh.ogg
+/home/astronaut/Music/Remix - Lofi/See Tình - Hoàng Thùy Linh (Cukak Remix).ogg
+/home/astronaut/Music/Electronic/EEYUH! - HR.ogg
+/home/astronaut/Music/Vietnamese/Chạnh Lòng Thương Cô 2 Remix - Huy Vạc (feat. Mee Media).ogg
+/home/astronaut/Music/Vietnamese/Chạnh lòng thương cô 2 - Huy Vạc (Mee Remix).ogg
+/home/astronaut/Music/Korean/Magnetic (아일릿) - ILLIT.ogg
+/home/astronaut/Music/English/Bones - Imagine Dragons.ogg
+/home/astronaut/Music/English/Radioactive - Imagine Dragons.ogg
+/home/astronaut/Music/English/Warriors (Worlds 2014 - League of Legends) - Imagine Dragons.ogg
+/home/astronaut/Music/Vietnamese/Bạc Phận - Jack & K-ICM.ogg
+/home/astronaut/Music/Vietnamese/Sóng Gió - Jack & K-ICM.ogg
+/home/astronaut/Music/Electronic/Fade Away - Jacob Tillberg (Deaf Kev Remix).ogg
+/home/astronaut/Music/Korean/Sweet Dream -  Jang Nara (장나라).ogg
+/home/astronaut/Music/Instruments/Shining The Morning on Piano - Jang Sei Yong.ogg
+/home/astronaut/Music/Electronic/Firefly - Jim Yosef.ogg
+/home/astronaut/Music/Instruments/Radetzky, Op. 228 - Johann Strauss I.ogg
+/home/astronaut/Music/Instruments/Artist's Life - Johann Strauss II.ogg
+/home/astronaut/Music/Electronic/Invisible - Julius Dreisig & Zeus X Crona.ogg
+/home/astronaut/Music/English/Golden hour - JVKE.ogg
+/home/astronaut/Music/English/This is what falling in love feels like - JVKE.ogg
+/home/astronaut/Music/Instruments/Christmas Tree - Kaptain.ogg
+/home/astronaut/Music/Korean/Touch - KATSEYE.ogg
+/home/astronaut/Music/English/Love Paradise - Kelly Chen.ogg
+/home/astronaut/Music/Eurobeat/The Top (Eurobeat) - Ken Blast.ogg
+/home/astronaut/Music/Korean/Ulala (My Girlfriend is a Gumiho OST) - Kim Gun Mo (김건모).ogg
+/home/astronaut/Music/Korean/Loveable (사랑스러워) - Kim Jong Kook (김종국).ogg
+/home/astronaut/Music/Korean/One Man (한 남자 ) - Kim Jong Kook (김종국).ogg
+/home/astronaut/Music/Japanese/Baka Mitai (ばかみたい) (Yakuza OST) - Kiryu.ogg
+/home/astronaut/Music/Vietnamese/Tình Ca Tình Ta - kis (Cukak Remix).ogg
+/home/astronaut/Music/Electronic/Pathfinder - Kubbi.ogg
+/home/astronaut/Music/English/Bad Romance - Lady Gaga.ogg
+/home/astronaut/Music/English/Die With A Smile - Lady Gaga, Bruno Mars.ogg
+/home/astronaut/Music/English/Another Day of Sun - La La Land (Original Motion Picture Soundtrack).ogg
+/home/astronaut/Music/English/Queen Of Disaster - Lana Del Rey.ogg
+/home/astronaut/Music/Electronic/Fall To Light - Laszlo.ogg
+/home/astronaut/Music/Instruments/The Lamp Is Low - Laurindo Almeida.ogg
+/home/astronaut/Music/Electronic/popcorn castle - leon chang.ogg
+/home/astronaut/Music/Remix - Lofi/Grind Me Down Remix - Lilianna Wilde x Jawster.ogg
+/home/astronaut/Music/Vietnamese/TOKYO Cypher - Lil Wuyn, 16 BrT, 16 Typh.ogg
+/home/astronaut/Music/Electronic/Sunkissed - LiQWYD.ogg
+/home/astronaut/Music/English/Oops - Little Mix ft. Charlie Puth.ogg
+/home/astronaut/Music/English/Reality - Lost Frequencies.ogg
+/home/astronaut/Music/English/Reality (Extended) - Lost Frequencies feat. Janieck Devy.ogg
+/home/astronaut/Music/Vietnamese/Ngày Đẹp Trời Để Nói Chia Tay - Lou Hoàng.ogg
+/home/astronaut/Music/Vietnamese/Vì Anh Đâu Có Biết - Madihu ft. Vũ.ogg
+/home/astronaut/Music/English/I See the Light (Tangled OST) - Mandy Moore, Zachary Levi.ogg
+/home/astronaut/Music/English/Sugar - Maroon 5.ogg
+/home/astronaut/Music/Instruments/Walt Ballad - MaSssuguMusic.ogg
+/home/astronaut/Music/Eurobeat/Golden Age - Max Coveri.ogg
+/home/astronaut/Music/Instruments/Imagine If - Megan Wofford.ogg
+/home/astronaut/Music/Instruments/Redefine - Megan Wofford.ogg
+/home/astronaut/Music/Instruments/Sweet Hope - Megan Wofford.ogg
+/home/astronaut/Music/Workout/Tevvez - Legend (Slowed+reverb).ogg
+/home/astronaut/Music/English/Play Date - Melanie Martinez.ogg
+/home/astronaut/Music/English/Bad (2012 Remaster) - Michael Jackson.ogg
+/home/astronaut/Music/Vietnamese/Cà phê - Min.ogg
+/home/astronaut/Music/Vietnamese/Đừng yêu nữa em mệt rồi - Min.ogg
+/home/astronaut/Music/Vietnamese/Có em chờ - Min ft Mr A.ogg
+/home/astronaut/Music/English/Cheri Cheri Lady - Modern Talking.ogg
+/home/astronaut/Music/Japanese/Sakurairo Maukoro (桜色舞うころ) - Nakashima Mika (中島 美嘉).ogg
+/home/astronaut/Music/Korean/애국가 (North Korea National Anthem).ogg
+/home/astronaut/Music/Remix - Lofi/Neko Atsume - Neku - HorrorShop.ogg
+/home/astronaut/Music/Vietnamese/Anh có muốn đưa em về không (HUVA Remix with more 17% speed) -Ngô Lan Hương.ogg
+/home/astronaut/Music/Vietnamese/Dối Lừa - Nguyễn Đình Vũ (Thereon Remix).ogg
+/home/astronaut/Music/Vietnamese/Nhắm Mắt Thấy Mùa Hè - Nguyên Hà.ogg
+/home/astronaut/Music/Vietnamese/HongKong1 - Nguyễn Trọng Tài x San Ji x Double X.ogg
+/home/astronaut/Music/Chinese/Phi Điểu Và Ve Sầu (飞鸟和蝉) - Nhậm Nhiên (任然).ogg
+/home/astronaut/Music/Eurobeat/Crazy Little Love - Nuage.ogg
+/home/astronaut/Music/Cute/Nyan Cat [original].ogg
+/home/astronaut/Music/One Piece/We Go - One Piece Opening OST 15.ogg
+/home/astronaut/Music/One Piece/Fight against the unforgivable - One Piece OST.ogg
+/home/astronaut/Music/One Piece/Gold And Oden - One Piece OST.ogg
+/home/astronaut/Music/One Piece/If there are storms there are stars to - One Piece OST.ogg
+/home/astronaut/Music/One Piece/Stealthy Night Shadow - One Piece OST.ogg
+/home/astronaut/Music/One Piece/The worlds number one Oden store - One Piece OST.ogg
+/home/astronaut/Music/English/Good Time - Owl City, Carly Rae Jepsen.ogg
+/home/astronaut/Music/English/Last Surprise - Persona 5 OST.ogg
+/home/astronaut/Music/Vietnamese/Thời thanh xuân sẽ qua - Phạm Hồng Phước ft. Văn Mai Hương.ogg
+/home/astronaut/Music/English/Fun Fun Fun - Pharrel Williams.ogg
+/home/astronaut/Music/English/Prettiest Girls - Pharrell Williams.ogg
+/home/astronaut/Music/Vietnamese/Đoạn Tuyệt Nàng Đi Phát Huy (Frexs Remix).ogg
+/home/astronaut/Music/Vietnamese/Thích Thích - Phương Ly.ogg
+/home/astronaut/Music/Vietnamese/Anh Là Ngoại Lệ Của Em Remix - Phương Ly ft Danxi, Toann.ogg
+/home/astronaut/Music/English/Just Give Me a Reason P!nk ft. Nate Ruess.ogg
+/home/astronaut/Music/Electronic/Goodbye To A World - Porter Robinson.ogg
+/home/astronaut/Music/Eurobeat/Remember Me.ogg
+/home/astronaut/Music/English/No Surprises - Radiohead.ogg
+/home/astronaut/Music/Instruments/Not So Far Away - Ragnarok Online BGM OST.ogg
+/home/astronaut/Music/Instruments/White Christmas - Ragnarok Online BGM OST.ogg
+/home/astronaut/Music/English/Locked Away - R. City ft. Adam Levine.ogg
+/home/astronaut/Music/Vietnamese/Yêu 5 - Rhymastic.ogg
+/home/astronaut/Music/Vietnamese/Kém duyên - Rum x Nit x Masew.ogg
+/home/astronaut/Music/Russia/To Serve Russia - Russian Army Song (DPRK Choir Version).ogg
+/home/astronaut/Music/Electronic/Nemesis - RYLLZ.ogg
+/home/astronaut/Music/Korean/From The Beginning Until Now (처음부터 지금까지) [Winter Sonata OST 겨울연가] - Ryu (류).ogg
+/home/astronaut/Music/Korean/Only You (그대만이) [Winter Sonata OST 겨울연가] - Ryu (류).ogg
+/home/astronaut/Music/English/Try Everything (Zootopia OST) - Shakira .ogg
+/home/astronaut/Music/Electronic/It'll Be Okay - smle.ogg
+/home/astronaut/Music/Vietnamese/Đừng Làm Trái Tim Anh Đau - Sơn Tùng M-TP.ogg
+/home/astronaut/Music/Vietnamese/Muộn Rồi Mà Sao Còn - Sơn Tùng M-TP.ogg
+/home/astronaut/Music/English/Until I Found You - Stephen Sanchez.ogg
+/home/astronaut/Music/Electronic/Feel Good - Syn Cole.ogg
+/home/astronaut/Music/Workout/Frozen in time - Tevvez.ogg
+/home/astronaut/Music/Workout/Infinity - Tevvez.ogg
+/home/astronaut/Music/Workout/Infinity (sped up) - Tevvez.ogg
+/home/astronaut/Music/Workout/Legend - Tevvez.ogg
+/home/astronaut/Music/Workout/Legend (Slowed+reverb) - Tevvez.ogg
+/home/astronaut/Music/Workout/Pressure - Tevvez.ogg
+/home/astronaut/Music/Workout/Quasar - Tevvez.ogg
+/home/astronaut/Music/Workout/Universe - Tevvez.ogg
+/home/astronaut/Music/Workout/Zeus - Tevvez.ogg
+/home/astronaut/Music/Chinese/Giày cao gót màu đỏ (红色高跟鞋) - Thái Kiện Nhã (蔡健雅).ogg
+/home/astronaut/Music/English/Here Comes The Sun (2019 Mix) - The Beatles.ogg
+/home/astronaut/Music/English/Sh Boom - The Coasters.ogg
+/home/astronaut/Music/Electronic/Never Be Alone - TheFatRat.ogg
+/home/astronaut/Music/Electronic/Xenogenesis (Outro Song) - TheFatRat.ogg
+/home/astronaut/Music/Electronic/The Calling - TheFatRat (feat. Laura Brehm).ogg
+/home/astronaut/Music/Electronic/Stronger - TheFatRat, Slaydit & Anjulie.ogg
+/home/astronaut/Music/English/Hall Of Fame - The Script .ogg
+/home/astronaut/Music/English/I Love You So - The Walters.ogg
+/home/astronaut/Music/English/Save Your Tears - The Weeknd.ogg
+/home/astronaut/Music/Instruments/First Date - Thomas Newman.ogg
+/home/astronaut/Music/Chinese/Ngủ Ngon Ngủ Ngon (晚安晚安) - Tiểu Tam Kim (小三金).ogg
+/home/astronaut/Music/Electronic/Candyland - Tobu.ogg
+/home/astronaut/Music/Electronic/Colors - Tobu.ogg
+/home/astronaut/Music/Electronic/Hope - Tobu.ogg
+/home/astronaut/Music/Electronic/Dusk  - Tobu & Syndec.ogg
+/home/astronaut/Music/Vietnamese/Ngày mai em đi - Touliver & Lê Hiếu & Soobin Hoàng sơn.ogg
+/home/astronaut/Music/English/Angel Baby - Troye Sivan.ogg
+/home/astronaut/Music/Vietnamese/Trót Yêu - Trung Quân Idol.ogg
+/home/astronaut/Music/Chinese/Đông miên (冬眠) - Tư Nam (司南).ogg
+/home/astronaut/Music/Eurobeat/Pepsiman (Eurobeat) - Turbo.ogg
+/home/astronaut/Music/Remix - Lofi/Rockefeller Street Eurobeat Remix - Turbo (w⧸@Keisari).ogg
+/home/astronaut/Music/Chinese/Người theo đuổi ánh sáng (追光者) - Từ Vi (洛艺).ogg
+/home/astronaut/Music/Instruments/Home (Track 012) - Undertale OST.ogg
+/home/astronaut/Music/Instruments/Snowdin Town (Track 022) - Undertale OST.ogg
+/home/astronaut/Music/Instruments/Telephones (Instrumental) - Vacations.ogg
+/home/astronaut/Music/Vietnamese/Cầu Hôn - Văn Mai Hương.ogg
+/home/astronaut/Music/OST/Stargazing - Veloren OST.ogg
+/home/astronaut/Music/Remix - Lofi/Star Power Theme Remix (Mario OST) - Video Game Remixes.ogg
+/home/astronaut/Music/English/It Only Takes A Moment (Hello, Dolly ! OST) - Walter Matthau, Michael Crawford and Louis Armstrong.ogg
+/home/astronaut/Music/English/Put On Your Sunday Clothes (Hello, Dolly ! OST) - Walter Matthau, Michael Crawford and Louis Armstrong.ogg
+/home/astronaut/Music/English/Nothing's Gonna Change My Love For You - Westlife.ogg
+/home/astronaut/Music/English/Season In The Sun - Westlife.ogg
+/home/astronaut/Music/English/Last Christmas (slowed + reverb) - Wham!.ogg
+/home/astronaut/Music/Vietnamese/Crush - W⧸n (Ft An An x Vani).ogg
+/home/astronaut/Music/English/This Land is Your Land (American Patriotic Song) - Woody Guthrie.ogg
+/home/astronaut/Music/Vietnamese/Từng Quen - Wren Evans.ogg
+/home/astronaut/Music/Instruments/Tomcat Rag - Yonatan Riklis.ogg
+/home/astronaut/Music/Electronic/doodle - Zachz Winner.ogg
+/home/astronaut/Music/Electronic/Beautiful Now - Zedd ft. Jon Bellion.ogg
+/home/astronaut/Music/OST/Piper's Sugar & Spice Music - Brawl Stars OST.ogg

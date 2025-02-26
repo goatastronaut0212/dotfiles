@@ -12,7 +12,7 @@ current_wallpaper = theme.choose_wallpaper(current_theme_number)
 gaps = 5
 
 mod = "mod4"
-terminal = "ghostty"
+terminal = "wezterm"
 
 # Drag floating layouts.
 mouse = [

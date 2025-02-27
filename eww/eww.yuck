@@ -36,18 +36,7 @@
 )
 
 ; -- Music --
-
-(defpoll MUSIC_CURRENT :interval "70ms" `~/.config/eww/scripts/playerctl_get_info`)
-(defpoll MUSIC_STATUS :interval "70ms" "playerctl status")
-
-
-(defwidget music-widget []
-  (button
-    :class {matches(MUSIC_STATUS, "Playing") ? "active" : ""}
-    :onclick `playerctl play-pause`
-    "♫ ${MUSIC_CURRENT}"
-  )
-)
+(include './widgets/music.yuck')
 
 ; -- Tray --
 

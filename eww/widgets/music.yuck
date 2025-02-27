@@ -1,0 +1,29 @@
+; -- Music --
+
+(deflisten MUSIC_CURRENT :initial "" `playerctl --follow --player=cmus metadata --format "{{title}} - {{artist}}"`)
+(deflisten MUSIC_STATUS :initial "" "playerctl --follow --player=cmus status")
+
+(defvar MUSIC_MENU false)
+
+(defwidget music-widget []
+  (box
+    :spacing 10
+    :space-evenly false
+    (button
+      :class { matches(MUSIC_STATUS, "Playing") ? "active" : "" }
+      :onrightclick `eww update MUSIC_MENU=${ matches(MUSIC_MENU, "false") ? true : false}`
+      "♫ ${MUSIC_CURRENT}"
+    )
+    (revealer
+      :reveal MUSIC_MENU
+      :transition "slideleft"
+      (box
+        :spacing 10
+        (button "⏮")
+        (button { matches(MUSIC_STATUS, "Playing") ? "⏵" : "⏸" })
+        (button "⏭ ")
+      )
+    )
+  )
+)
+

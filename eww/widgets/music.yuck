@@ -3,27 +3,38 @@
 (deflisten MUSIC_CURRENT :initial "" `playerctl --follow --player=cmus metadata --format "{{title}} - {{artist}}"`)
 (deflisten MUSIC_STATUS :initial "" "playerctl --follow --player=cmus status")
 
-(defvar MUSIC_MENU false)
+(deflisten MUSIC_LOOP_STATUS :initial "" "playerctl --follow --player=cmus loop")
+(deflisten MUSIC_SHUFFLE_STATUS :initial "" "playerctl --follow --player=cmus shuffle")
+
+(defvar MUSIC_MENU_RIGHT false)
 
 (defwidget music-widget []
-  (box
-    :spacing 10
-    :space-evenly false
-    (button
-      :class { matches(MUSIC_STATUS, "Playing") ? "active" : "" }
-      :onrightclick `eww update MUSIC_MENU=${ matches(MUSIC_MENU, "false") ? true : false}`
-      "♫ ${MUSIC_CURRENT}"
-    )
-    (revealer
-      :reveal MUSIC_MENU
-      :transition "slideleft"
-      (box
-        :spacing 10
-        (button "⏮")
-        (button { matches(MUSIC_STATUS, "Playing") ? "⏵" : "⏸" })
-        (button "⏭ ")
-      )
-    )
+  (box :spacing 10
+       :space-evenly false
+
+    (button :class { matches(MUSIC_STATUS, "Playing") ? "active" : "" }
+            :onrightclick `eww update MUSIC_MENU_RIGHT=${ matches(MUSIC_MENU_RIGHT, "false") ? true : false}`
+      "♫ ${MUSIC_CURRENT}")
+
+    (revealer :reveal MUSIC_MENU_RIGHT
+              :transition "slideright"
+      (box :spacing 10
+           :space-evenly false
+        (eventbox :cursor "pointer"
+          (button
+            :class "music-menu"
+            :onclick "playerctl --player=cmus previous"
+            "⏮ "))
+
+        (eventbox :cursor "pointer"
+          (button :class "music-menu"
+                  :onclick "playerctl --player=cmus play-pause"
+            { matches(MUSIC_STATUS, "Playing") ? "⏸ " : "⏵ " }))
+
+        (eventbox :cursor "pointer"
+          (button :class "music-menu"
+                  :onclick "playerctl --player=cmus next"
+            "⏭ "))))
   )
 )
 

@@ -5,20 +5,18 @@
 
 (deflisten MUSIC_LOOP_STATUS :initial "" "playerctl --follow --player=cmus loop")
 (deflisten MUSIC_SHUFFLE_STATUS :initial "" "playerctl --follow --player=cmus shuffle")
+(defpoll MUSIC_VOLUME_STATUS :interval "10ms" "/home/astronaut/.config/eww/scripts/get_music_volume")
 
+(defvar MUSIC_MENU_LEFT false)
 (defvar MUSIC_MENU_RIGHT false)
 
 (defwidget music-widget []
   (box :spacing 10
        :space-evenly false
 
-    (button :class { matches(MUSIC_STATUS, "Playing") ? "active" : "" }
-            :onrightclick `eww update MUSIC_MENU_RIGHT=${ matches(MUSIC_MENU_RIGHT, "false") ? true : false}`
-      "♫ ${MUSIC_CURRENT}")
-
-    (revealer :reveal MUSIC_MENU_RIGHT
-              :transition "slideright"
-      (box :spacing 10
+    (revealer :reveal MUSIC_MENU_LEFT
+              :transition "slideleft"
+      (box :spacing 5
            :space-evenly false
         (eventbox :cursor "pointer"
           (button
@@ -35,6 +33,25 @@
           (button :class "music-menu"
                   :onclick "playerctl --player=cmus next"
             "⏭ "))))
+
+    (button :class { matches(MUSIC_STATUS, "Playing") ? "active" : "" }
+            :onclick `eww update MUSIC_MENU_LEFT=${ matches(MUSIC_MENU_LEFT, "false") ? true : false}`
+            :onrightclick `eww update MUSIC_MENU_RIGHT=${ matches(MUSIC_MENU_RIGHT, "false") ? true : false}`
+      "♫ ${MUSIC_CURRENT}")
+
+    (revealer :reveal MUSIC_MENU_RIGHT
+              :transition "slideleft"
+      (box :spacing 5
+           :space-evenly false
+        (image :path `/home/astronaut/.config/eww/images/speaker-${ MUSIC_VOLUME_STATUS >= 50 ? "2" : `${ MUSIC_VOLUME_STATUS != 0 ? "1" : "0"}`}.svg`
+               :image-width 18
+               :image-height 18
+        )
+        (scale :class "music-scale"
+               :min 0
+               :max 100
+               :value MUSIC_VOLUME_STATUS
+               :onchange "/home/astronaut/.config/eww/scripts/set_music_volume {}")))
   )
 )
 

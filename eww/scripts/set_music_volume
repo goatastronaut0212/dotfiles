@@ -1,0 +1,28 @@
+#!/bin/sh
+
+# Check if the new_volume parameter is provided
+if [ -z "$1" ]; then
+  echo "Usage: $0 <new_volume>"
+  echo "Please provide a volume level between 0 and 100."
+  exit 1
+fi
+
+# Assign the new_volume parameter to a variable
+NEW_VOLUME=$1
+
+# Validate that the new_volume is a number between 0 and 100
+if ! echo "$NEW_VOLUME" | grep -Eq '^[0-9]+$'; then
+  echo "Error: Volume must be an integer."
+  exit 1
+fi
+
+if [ "$NEW_VOLUME" -lt 0 ] || [ "$NEW_VOLUME" -gt 100 ]; then
+  echo "Error: Volume must be between 0 and 100."
+  exit 1
+fi
+
+# Convert the volume percentage to a decimal value between 0 and 1
+VOLUME_DECIMAL=$(echo "scale=2; $NEW_VOLUME / 100" | bc)
+
+# Set the volume using playerctl
+playerctl --player=cmus volume $VOLUME_DECIMAL

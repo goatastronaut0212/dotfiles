@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Get the volume from playerctl
+VOLUME=$(playerctl --player=cmus volume)
+
+# Check if the volume was found
+if [ -z "$VOLUME" ]; then
+  echo "C* Music Player is not currently playing audio."
+  exit 1
+fi
+
+# Multiply the volume by 100 and round to the nearest integer
+VOLUME_PERCENT=$(echo "scale=0; ($VOLUME * 100 + 0.5) / 1" | bc)
+
+# Print the volume
+echo $VOLUME_PERCENT

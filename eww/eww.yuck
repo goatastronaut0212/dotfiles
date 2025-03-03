@@ -13,27 +13,7 @@
 )
 
 ; -- Workspace --
-
-(defpoll WORKSPACE_CURRENT :interval "70ms" `~/.config/eww/scripts/hyprland_workspace`)
-(defpoll WORKSPACE_WINDOW_ACTIVE :interval "70ms" `~/.config/eww/scripts/hyprland_activewindow_workspace`)
-
-(defvar WORKSPACE_LIST "[1, 2, 3, 4, 5, 6, 7, 8, 9]")
-
-(defwidget workspace-widget []
-  (box :class "workspaces"
-       :orientation "h"
-       :space-evenly true
-       :halign "start"
-       :spacing 10
-    (for workspace in WORKSPACE_LIST
-      (button
-        :class {matches(workspace, WORKSPACE_WINDOW_ACTIVE) ? "active" : ""}
-        :onclick `hyprctl dispatch workspace ${workspace}`
-	{workspace == WORKSPACE_CURRENT ? "⬤" : "◯"}
-      )
-    )
-  )
-)
+(include './widgets/workspace.yuck')
 
 ; -- Music --
 (include './widgets/music.yuck')

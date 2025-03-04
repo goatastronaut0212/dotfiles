@@ -22,17 +22,26 @@
           (button
             :class "music-menu"
             :onclick "playerctl --player=cmus previous"
-            "⏮ "))
+            (image :path "/home/astronaut/.config/eww/images/music-previous.svg"
+                   :image-width 14
+                   :image-height 14
+                   :fill-svg "#4e4e4e")))
 
         (eventbox :cursor "pointer"
           (button :class "music-menu"
                   :onclick "playerctl --player=cmus play-pause"
-            { matches(MUSIC_STATUS, "Playing") ? "⏸ " : "⏵ " }))
+            (image :path `/home/astronaut/.config/eww/images/${ matches(MUSIC_STATUS, "Playing") ? "music-pause.svg" : "music-play.svg" }`
+                   :image-width 14
+                   :image-height 14
+                   :fill-svg "#4e4e4e")))
 
         (eventbox :cursor "pointer"
           (button :class "music-menu"
                   :onclick "playerctl --player=cmus next"
-            "⏭ "))))
+            (image :path "/home/astronaut/.config/eww/images/music-next.svg"
+                   :image-width 14
+                   :image-height 14
+                   :fill-svg "#4e4e4e")))))
 
     (button :class { matches(MUSIC_STATUS, "Playing") ? "active" : "" }
             :onclick `eww update MUSIC_MENU_LEFT=${ matches(MUSIC_MENU_LEFT, "false") ? true : false}`

@@ -22,7 +22,7 @@
           (button
             :class "music-menu"
             :onclick "playerctl --player=cmus previous"
-            (image :path "/home/astronaut/.config/eww/images/music-previous.svg"
+            (image :path "/home/astronaut/.config/eww/images/music-play-skip-back.svg"
                    :image-width 14
                    :image-height 14
                    :fill-svg "#4e4e4e")))
@@ -38,7 +38,7 @@
         (eventbox :cursor "pointer"
           (button :class "music-menu"
                   :onclick "playerctl --player=cmus next"
-            (image :path "/home/astronaut/.config/eww/images/music-next.svg"
+            (image :path "/home/astronaut/.config/eww/images/music-play-skip-forward.svg"
                    :image-width 14
                    :image-height 14
                    :fill-svg "#4e4e4e")))))
@@ -51,7 +51,10 @@
     (revealer :reveal MUSIC_MENU_RIGHT
               :transition "slideleft"
       (box :space-evenly false
-        (image :path `/home/astronaut/.config/eww/images/volume-${ MUSIC_VOLUME_STATUS >= 50 ? "2" : `${ MUSIC_VOLUME_STATUS != 0 ? "1" : "0"}`}.svg`
+        (image :path `/home/astronaut/.config/eww/images/volume-${
+          MUSIC_VOLUME_STATUS >= 80 ? "high" : `${
+            MUSIC_VOLUME_STATUS >= 40 ? "medium" : `${
+              MUSIC_VOLUME_STATUS >= 0 ? "low" : "off"}`}`}.svg`
                :fill-svg "#5e95fe"
                :image-width 18
                :image-height 18)

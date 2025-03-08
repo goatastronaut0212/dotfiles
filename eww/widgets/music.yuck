@@ -50,12 +50,11 @@
 
     (revealer :reveal MUSIC_MENU_RIGHT
               :transition "slideleft"
-      (box :spacing 5
-           :space-evenly false
-        (image :path `/home/astronaut/.config/eww/images/speaker-${ MUSIC_VOLUME_STATUS >= 50 ? "2" : `${ MUSIC_VOLUME_STATUS != 0 ? "1" : "0"}`}.svg`
+      (box :space-evenly false
+        (image :path `/home/astronaut/.config/eww/images/volume-${ MUSIC_VOLUME_STATUS >= 50 ? "2" : `${ MUSIC_VOLUME_STATUS != 0 ? "1" : "0"}`}.svg`
+               :fill-svg "#5e95fe"
                :image-width 18
-               :image-height 18
-        )
+               :image-height 18)
         (scale :class "music-scale"
                :min 0
                :max 100

@@ -1,7 +1,7 @@
 ; -- Workspace --
 
-(defpoll WORKSPACE_CURRENT :interval "70ms" `~/.config/eww/scripts/hyprland_workspace`)
-(defpoll WORKSPACE_WINDOW_ACTIVE :interval "70ms" `~/.config/eww/scripts/hyprland_activewindow_workspace`)
+(defpoll WORKSPACE_CURRENT :interval "70ms" `/home/theeasternfurry/.config/eww/scripts/hyprland_workspace`)
+(defpoll WORKSPACE_WINDOW_ACTIVE :interval "70ms" `/home/theeasternfurry/.config/eww/scripts/hyprland_activewindow_workspace`)
 
 (defvar WORKSPACE_LIST "[1, 2, 3, 4, 5, 6, 7, 8, 9]")
 

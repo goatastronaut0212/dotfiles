@@ -1,0 +1,31 @@
+; -- Time --
+(defpoll TIME :interval "10s" "date '+%H:%M'")
+
+; -- Side widget
+(defwidget side-widget []
+  (box :class "sidestuff" :orientation "h" :space-evenly false :halign "end"
+       :spacing 10
+       :space-evenly false
+    (systray :spacing 4)
+    (box :spacing 4
+         :space-evenly false
+      (image
+        :image-width 22
+        :image-height 22
+        :fill-svg "#b0b4bc"
+        :path 
+          {matches(EWW_BATTERY.BAT0.status, "Charging") ?
+            "/home/theeasternfurry/.config/eww/images/battery-charging-outline.svg" :
+            `${EWW_BATTERY.BAT0.capacity <= 10 ?
+              "/home/theeasternfurry/.config/eww/images/battery-dead-outline.svg" :
+              `${EWW_BATTERY.BAT0.capacity <= 60 ?
+                "/home/theeasternfurry/.config/eww/images/battery-half-outline.svg" :
+                "/home/theeasternfurry/.config/eww/images/battery-full-outline.svg"
+              }`
+            }`
+          })
+      (box `${EWW_BATTERY.BAT0.capacity}%`))
+    (box TIME)
+  )
+)
+

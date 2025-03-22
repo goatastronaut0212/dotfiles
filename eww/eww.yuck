@@ -4,33 +4,15 @@
     (music-widget)
     (side-widget)))
 
-(defwidget side-widget []
-  (box :class "sidestuff" :orientation "h" :space-evenly false :halign "end"
-       :spacing 10
-    (tray-widget)
-    (time-widget)
-  )
-)
-
 ; -- Workspace --
-(include './widgets/workspace.yuck')
+(include '/home/theeasternfurry/.config/eww/widgets/workspace.yuck')
 
 ; -- Music --
-(include './widgets/music.yuck')
+(include '/home/theeasternfurry/.config/eww/widgets/music.yuck')
 
-; -- Tray --
+; -- Side widget --
+(include '/home/theeasternfurry/.config/eww/widgets/side-widget.yuck')
 
-(defwidget tray-widget []
-  (box
-    (systray)))
-
-; -- Time --
-
-(defpoll TIME :interval "10s" "date '+%H:%M'")
-
-(defwidget time-widget []
-  (box TIME)
-)
 
 (defwindow bar
   :monitor 0

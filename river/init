@@ -11,8 +11,13 @@
 # Note: the "Super" modifier is also known as Logo, GUI, Windows, Mod4, etc.
 
 ## Autostart
-riverctl spawn dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=river
+riverctl spawn "dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=river"
 riverctl spawn waybar
+
+# Touchpad
+riverctl input pointer-1739-52694-DELL0A24:00_06CB:CDD6_Touchpad events enabled
+riverctl input pointer-1739-52694-DELL0A24:00_06CB:CDD6_Touchpad tap enabled
+
 
 # Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
 riverctl map normal Super+Shift Return spawn foot

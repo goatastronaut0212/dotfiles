@@ -1,48 +1,31 @@
 // -*- mode: jsonc -*-
 {
     // "layer": "top", // Waybar at top layer
-    // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 30, // Waybar height (to be removed for auto height)
-    // "width": 1280, // Waybar width
-    "spacing": 4, // Gaps between modules (4px)
+    "position": "bottom", // Waybar position (top|bottom|left|right)
+    "height": 32, // Waybar height (to be removed for auto height)
+    //"width": 1280, // Waybar width
+    "spacing": 2, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
         "river/tags",
 	"river/mode"
     ],
     "modules-center": [
-        "river/window"
+        "clock"
     ],
     "modules-right": [
         "mpd",
-        "idle_inhibitor",
         "pulseaudio",
-        "network",
         "power-profiles-daemon",
         "backlight",
-        "keyboard-state",
         "battery",
-        "clock",
         "tray",
         "custom/power"
     ],
     // Modules configuration
-    // "sway/workspaces": {
-    //     "disable-scroll": true,
-    //     "all-outputs": true,
-    //     "warp-on-scroll": false,
-    //     "format": "{name}: {icon}",
-    //     "format-icons": {
-    //         "1": "",
-    //         "2": "",
-    //         "3": "",
-    //         "4": "",
-    //         "5": "",
-    //         "urgent": "",
-    //         "focused": "",
-    //         "default": ""
-    //     }
-    // },
+    "river/tags": {
+        "hide-vacant": true
+    },
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
@@ -97,7 +80,7 @@
     },
     "tray": {
         // "icon-size": 21,
-        "spacing": 10
+        "spacing": 4
     },
     "clock": {
         // "timezone": "America/New_York",

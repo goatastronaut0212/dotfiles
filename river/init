@@ -13,14 +13,16 @@
 ## Autostart
 riverctl spawn "dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=river"
 riverctl spawn waybar
+riverctl spawn nm-applet
+riverctl spawn "swaybg -i ~/Pictures/Wallpaper/hare_rabbit_art_125387_1920x1080.jpg"
 
 # Touchpad
 riverctl input pointer-1739-52694-DELL0A24:00_06CB:CDD6_Touchpad events enabled
 riverctl input pointer-1739-52694-DELL0A24:00_06CB:CDD6_Touchpad tap enabled
 
 
-# Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
-riverctl map normal Super+Shift Return spawn foot
+# Super+Shift+Return to start ghostty
+riverctl map normal Super+Shift Return spawn ghostty
 
 # Super+P to start fuzzel
 riverctl map normal Super P spawn fuzzel

@@ -14,6 +14,7 @@
 riverctl spawn "dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=river"
 riverctl spawn waybar
 riverctl spawn nm-applet
+riverctl spawn fcitx5
 riverctl spawn "swaybg -i ~/Pictures/Wallpaper/hare_rabbit_art_125387_1920x1080.jpg"
 
 # Touchpad

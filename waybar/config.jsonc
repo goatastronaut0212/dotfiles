@@ -1,26 +1,22 @@
 // -*- mode: jsonc -*-
 {
     // "layer": "top", // Waybar at top layer
-    "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 32, // Waybar height (to be removed for auto height)
-    //"width": 1280, // Waybar width
-    "spacing": 2, // Gaps between modules (4px)
+    "position": "left", // Waybar position (top|bottom|left|right)
+    "height": "auto", // Waybar height (to be removed for auto height)
+    "width": 32, // Waybar width
+    "spacing": 10, // Gaps between modules (4px)
+    "margin-top": 100,
+    "margin-bottom": 100,
+    "margin-left": 10,
     // Choose the order of the modules
     "modules-left": [
-        "river/tags",
-	"river/mode"
+         "niri/workspaces"
     ],
     "modules-center": [
-        "clock"
     ],
     "modules-right": [
-        "mpd",
-        "pulseaudio",
-        "power-profiles-daemon",
-        "backlight",
-        "battery",
         "tray",
-        "custom/power"
+        "clock"
     ],
     // Modules configuration
     "river/tags": {
@@ -84,8 +80,9 @@
     },
     "clock": {
         // "timezone": "America/New_York",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        //"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%d\n%m\n%Y}",
+        "format": "{:%H\n%M}"
     },
     "cpu": {
         "format": "{usage}% ",
